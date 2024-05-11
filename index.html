@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mafia</title>
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="left-sidebar">
+            <div class="inner">
+                <div class="user-profile">
+                    <div class="user-background"></div>
+                    <div class="user-image">
+                        <img src="https://xatimg.com/image/8cO1LXZJFSXv.jpg">
+                    </div>
+                    <div class="user-info">
+                        <p class="user-name">Mrs Tanya</p>
+                        <p class="user-title">All eyez on me..!</p>
+                        <p class="user-location">
+                            <i class="icon ion-md-locate"></i> turkey
+                        </p>
+                    </div>
+                </div>
+
+                <div class="main-menu"></div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/"><i class="icon ion-logo-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="icon ion-logo-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="icon ion-logo-instagram"></i></a>
+                </div>
+            </div>
+            <div class="toggle-button"><i class="icon ion-md-arrow-dropleft"></i></div>
+        </div>
+        <div class="main-content">
+
+            <div class="modal music-player">
+                <div class="heading">
+                    
+                    <video src="1.mp4" width="500" height="300" autoplay controls ></video>
+                </div>
+                <div class="audio-player-large">
+                    <div class="audio-image">
+                        
+                        
+                    </div>
+                    <div class="audio-slider">
+                        <div class="slider"></div>
+                    </div>
+                    <div class="audio-buttons">
+                        
+                    </div>
+                </div>
+                
+                <div class="audio-player-small">
+                    <div class="audio-info">
+                       
+                    </div>
+                    <div class="audio-buttons">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="modal timer-display">
+                <div class="heading">
+                    
+                </div>
+                <div class="countdown-timer-large">
+                    <div class="animatedBackground"></div>
+                    <div class="info">
+                        <div class="header">
+                            <h2>Stay Tuned</h2>
+                        </div>
+                        <div class="countdown">
+                            <div>
+                                <p>169</p>
+                                <p>days</p>
+                            </div>
+                            <div>
+                                <p>10</p>
+                                <p>hours</p>
+                            </div>
+                            <div>
+                                <p>31</p>
+                                <p>minutes</p>
+                            </div>
+                            <div>
+                                <p>01</p>
+                                <p>seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="countdown-timer-small">
+                    <div class="backgroundImage"></div>
+                    <div class="countdown">
+                        <div>
+                            <p>169</p>
+                            <p>days</p>
+                        </div>
+                        <div>
+                            <p>10</p>
+                            <p>hours</p>
+                        </div>
+                        <div>
+                            <p>31</p>
+                            <p>minutes</p>
+                        </div>
+                        <div>
+                            <p>01</p>
+                            <p>seconds</p>
+                        </div>
+                    </div>
+                    <div class="animated-clock-face"></div>
+                </div>
+            </div>
+
+            <div class="direct-messaging minimize">
+                <div class="header-container">
+                    <div>
+                        <img src="https://xatimg.com/image/8cO1LXZJFSXv.jpg">
+                    </div>
+                    <div class="header-user">
+                        <span>Tanya</span>
+                        <span class="online"></span>
+                    </div>
+                    <div class="close-chat-btn"><i class="icon ion-ios-arrow-down"></i></div>
+
+                </div>
+                <div class="message-container">
+                    <div class="msg received">
+                        <p><span class="time">10:50pm</span></p>
+                        <p class="text">Hi!</p>
+                    </div>
+                    <div class="msg received">
+                        <p class="text">How are you today?</p>
+                    </div>
+                    <div class="msg sent">
+                        <p class="time">10:51pm</p>
+                        <p class="text">Hi Tanya, doing good thanks, yourself?</p>
+                    </div>
+                </div>
+                <div class="send-container">
+                    <input class="type-message" placeholder="Your message ..."></input>
+                    <div class="send-btn"><i class="icon ion-md-send"></i></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right-sidebar">
+            <div class="btn open-music-btn"><i class="icon ion-md-musical-notes"></i></div>
+            <div class="btn open-timer-btn"><i class="icon ion-md-timer"></i></div>
+            <div class="btn open-chat-btn"><i class="icon ion-md-chatbubbles"></i></div>
+        </div>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.3/mobile-detect.min.js" integrity="sha512-Xjikn1h1fKktgyBoxIIW1b1YenXIQ4TlQka847LZGkVejqLwthv/o3xR2siQIRSAc9zaaYNBZUagAAzqIKYPCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r72/three.min.js" integrity="sha512-Bt1wYH3fMnq4I2phZvUVVoWpC/zgaUolVOKvTlKb6yfCSrCiQ+axJvJKfCbhYEWcxb1URE8hPmArQx3NcqQCdQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js" integrity="sha512-2hIlk2fL+NNHkULe9gGdma/T5vSYk80U5tvAFSy3dGEl8XD4h2i6frQvHv5B+bm/Itmi8nJ6krAcj5FWFcBGig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.2.0/css/ionicons.min.css"
+        integrity="sha512-XDja4kIuNYHENb7RaJqNuQmjCPGeqUASpevjGoTk0Aj0UHooqsexMUuPmR+zuis5w2pIz5T6FoOOhYAMgQXa6w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
